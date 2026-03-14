@@ -1,0 +1,8 @@
+{
+  "name": "TranslateRT",
+  "description": "A simple push to start live video and audio translation app that translates spoken language and text in real-time. Users can translate both in and out. A snap to translate button makes easy work of most all text with the option of saving images. This app focuses on simplicity and accessibility, with ease of use in mind.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
