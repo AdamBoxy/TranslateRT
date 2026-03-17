@@ -32,7 +32,7 @@ class AudioRecorder {
       
       let binary = '';
       const bytes = new Uint8Array(buffer);
-      const chunkSize = 0x8000;
+      const chunkSize = 0x1000;
       for (let i = 0; i < bytes.length; i += chunkSize) {
         binary += String.fromCharCode.apply(null, Array.from(bytes.subarray(i, i + chunkSize)));
       }
